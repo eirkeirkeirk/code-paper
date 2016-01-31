@@ -22,18 +22,18 @@ var marginLeft = 0.75
 var pageWidth = paperWidth - marginLeft - marginRight
 var pageHeight = paperHeight - marginBottom - marginTop
 
-var borderWidth = 1.0
-var borderColor = NSColor(calibratedHue: 0, saturation: 0, brightness: 0.4, alpha: 1)
+var borderWidth = 0.75
+var borderColor = NSColor(white: 0.5, alpha: 1.0)
 
 var lineWidth = 0.5
-var lineColor = NSColor(calibratedHue: 0, saturation: 0, brightness: 0.8, alpha: 1)
+var lineColor = NSColor(white: 0.7, alpha: 1.0)
 var lineSpacing = 0.25
 var numberOfLines = Int(floor(pageHeight / lineSpacing))
 
 var tabLineWidth = 0.5
 var tabLinesSpacing = 0.28
 let firstTabLineOffset = 0.5
-var tabLineColor = NSColor(calibratedHue: 0, saturation: 0, brightness: 0.9, alpha: 1)
+var tabLineColor = NSColor(white: 0.8, alpha: 1.0)
 var numbersOfTabs = 4
 
 func getPath() -> NSURL? {
