@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		05A94DC81C5BBE400045ED81 /* code-paper-generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "code-paper-generator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A94DC81C5BBE400045ED81 /* code-paper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "code-paper"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A94DCB1C5BBE400045ED81 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		05A94DC91C5BBE400045ED81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05A94DC81C5BBE400045ED81 /* code-paper-generator */,
+				05A94DC81C5BBE400045ED81 /* code-paper */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05A94DC71C5BBE400045ED81 /* code-paper-generator */ = {
+		05A94DC71C5BBE400045ED81 /* code-paper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05A94DCF1C5BBE400045ED81 /* Build configuration list for PBXNativeTarget "code-paper-generator" */;
+			buildConfigurationList = 05A94DCF1C5BBE400045ED81 /* Build configuration list for PBXNativeTarget "code-paper" */;
 			buildPhases = (
 				05A94DC41C5BBE400045ED81 /* Sources */,
 				05A94DC51C5BBE400045ED81 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "code-paper-generator";
+			name = "code-paper";
 			productName = "code-paper-generator";
-			productReference = 05A94DC81C5BBE400045ED81 /* code-paper-generator */;
+			productReference = 05A94DC81C5BBE400045ED81 /* code-paper */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05A94DC71C5BBE400045ED81 /* code-paper-generator */,
+				05A94DC71C5BBE400045ED81 /* code-paper */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +232,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05A94DCF1C5BBE400045ED81 /* Build configuration list for PBXNativeTarget "code-paper-generator" */ = {
+		05A94DCF1C5BBE400045ED81 /* Build configuration list for PBXNativeTarget "code-paper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05A94DD01C5BBE400045ED81 /* Debug */,
